@@ -3,7 +3,7 @@
   <h1 class="text-danger">Shopping Cart</h1>
 <div class="headCart">
   <p class="lead">You have <label class="text-danger ">{{cartProducts.length}}</label> item in your cart</p>
-  <span class="text-danger card-header"(click)="clearCart()" >Clear Shopping Cart
+  <span class="text-danger card-header"(click)="clearCart()" >Clear Shop Cart
 
   </span>
 </div>
@@ -27,7 +27,6 @@
           <td>
             <div class="quantity">
                 <button class="btn btn-dark" (click)="addAmount(index)"  >+</button>
-                <input class="form-control"  type="number"  *ngIf="item.quantity>=0"  step="0" oninput="validity.valid||(value='')" (change)="detectChange()" [(ngModel)]="item.quantity " min="0">
                 <button class="btn btn-dark" (click)="minsAmount(index)"    >-</button>
             </div>
         </td>
