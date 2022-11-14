@@ -26,7 +26,7 @@ export class ProductsDetailsComponent implements OnInit {
 
     this.service.getProductsById(this.id).subscribe((res:any) =>{
       this.data=res
-      // this.loading=false
+      this.loading=false
 
     })}
 
