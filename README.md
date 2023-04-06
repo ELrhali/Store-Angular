@@ -1,4 +1,4 @@
-# MyNewAngularApp
+# Le projet Store-Angular utilise le framework Angular et la bibliothèque Bootstrap pour développer une application de magasin en ligne. Les APIs d'un site web sont également utilisées pour récupérer les données du magasin telles que les produits, les descriptions et les prix. L'application permettra aux utilisateurs de parcourir les produits, de les ajouter à leur panier et de passer une commande. Le design est conçu pour offrir une expérience utilisateur optimale avec une navigation fluide et une interface utilisateur intuitive. Le projet peut également inclure des fonctionnalités supplémentaires telles que l'authentification utilisateur et la gestion des paiements en ligne.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
